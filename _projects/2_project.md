@@ -1,81 +1,53 @@
 ---
 layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
+title: Smart Transportation Planning and Management for High-Impact Events
+description: Integrating Digital Twin and Computer Vision Technologies
+img: assets/img/fifa-metlife-5.png
+importance: 1
 category: work
-giscus_comments: true
+related_publications: false
 ---
+## Introduction
+Organizing large-scale events like sports tournaments, festivals, and concerts poses significant challenges, especially for regions already dealing with high levels of congestion and critical infrastructure needs. These events, drawing massive crowds from across states and around the world, can strain transportation systems, security, and public services. One upcoming example is the FIFA World Cup 2026, where millions of visitors are expected to flood into the New York-New Jersey (NYNJ) region. As these events become larger and more unpredictable, it’s clear that traditional transportation management methods alone will not suffice.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fifa-metlife-0.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Metlife Stadium, to be hosting grand final of FIFA World Cup 2026.
 </div>
-<div class="row">
+
+Our research project addresses this challenge by developing advanced, technology-driven solutions for smart transportation planning and management. By collaborating with local authorities and industry leaders, our goal is to pioneer a set of innovative tools that use cutting-edge technologies such as Artificial Intelligence (AI), computer vision, and Digital Twin (DT) systems. These systems are designed to detect crowds, manage traffic incidents, and respond to emergencies in real-time, ensuring safe and efficient travel experiences for event attendees.
+
+<div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.liquid loading="eager" path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.liquid loading="eager" path="assets/img/fifa-metlife-1.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    DT conceptualization in high-impact event management.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, _bled_ for your project, and then... you reveal its glory in the next row of images.
+A Digital Twin (DT) is a virtual model that mirrors the physical world in real-time. By integrating this technology with AI-powered computer vision, we can enhance the ability to detect clusters of visitors, monitor traffic flow, and proactively manage disruptions. Using smart cameras equipped with Edge AI computing, the system will enable predictive capabilities that help prevent potential risks, whether it's a traffic jam or an emergency incident.
 
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+In collaboration with local stakeholders, this project not only provides immediate solutions for managing events like the FIFA World Cup but also contributes to long-term resilience for transportation systems in high-density urban regions. By leveraging both technology and local insights, our aim is to develop solutions that improve urban mobility for all, particularly vulnerable communities. 
+
+## Partnership
+NJSEA, AIWaysion, SEMPACT, NYU 
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fifa-metlife-2.png" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fifa-metlife-3.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.liquid loading="eager" path="assets/img/fifa-metlife-4.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
 
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
 
-{% raw %}
-
-```html
-<div class="row justify-content-sm-center">
-  <div class="col-sm-8 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-  <div class="col-sm-4 mt-3 mt-md-0">
-    {% include figure.liquid path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-  </div>
-</div>
-```
-
-{% endraw %}
+## Resources
+Details coming soon
